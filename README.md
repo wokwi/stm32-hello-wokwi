@@ -4,7 +4,7 @@ A simple "Hello World" example showing how to run an STM32 project in [Wokwi for
 
 ## Building
 
-We recommend using the [STM32 VS Code extension](https://marketplace.visualstudio.com/items?itemName=stmicroelectronics.stm32-vscode-extension) to build the project. You will also need to install (STM32CubeCLT)[https://www.st.com/en/development-tools/stm32cubeclt.html#get-software].
+We recommend using the [STM32 VS Code extension](https://marketplace.visualstudio.com/items?itemName=stmicroelectronics.stm32-vscode-extension) to build the project. You will also need to install [STM32CubeCLT](https://www.st.com/en/development-tools/stm32cubeclt.html#get-software).
 
 ## Simulation
 
