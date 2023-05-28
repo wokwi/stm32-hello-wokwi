@@ -86,7 +86,7 @@ BIN = $(CP) -O binary -S
 # CFLAGS
 #######################################
 # cpu
-
+CPU=-mcpu=cortex-m0plus
 
 # fpu
 # NONE for Cortex-M0/M0+/M3
