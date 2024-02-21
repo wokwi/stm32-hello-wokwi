@@ -20,4 +20,16 @@ Make sure you have the [Arm GNU Toolchain](https://developer.arm.com/downloads/-
 
 To simulate this project, install [Wokwi for VS Code](https://marketplace.visualstudio.com/items?itemName=wokwi.wokwi-vscode). Open the project directory in Visual Studio Code, press **F1** and select "Wokwi: Start Simulator".
 
+If wokwi complains about a missing firmware, you may need to tell cmake to generate a debug build. Press **F1**, select "CMake: Select Configure Preset", and choose "debug".
+
 Once the simulation is running, you should see the text "Hello, Wowki!" in the Serial monitor.
+
+### Debugging
+
+You can also debug the simulated project using the built-in debugger in Visual Studio Code. To do that, follow these steps:
+
+1. Configure cmake to generate a debug build by pressing **F1**, selecting "CMake: Select Configure Preset", and choosing "debug".
+2. Press **F1** again and select "Wokwi: Start Simulator and Wait for Debugger".
+3. Press **F5** to start the debugger.
+
+The debug configuration is already defined in the [.vscode/launch.json](.vscode/launch.json) file. For more information, see the [Wokwi for VS Code documentation](https://docs.wokwi.com/vscode/debugging).

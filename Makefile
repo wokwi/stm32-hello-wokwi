@@ -29,7 +29,7 @@ OPT = -Og
 # paths
 #######################################
 # Build path
-BUILD_DIR = build/release/build
+BUILD_DIR = build/debug/build
 
 ######################################
 # source

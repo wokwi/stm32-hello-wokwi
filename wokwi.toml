@@ -1,4 +1,5 @@
 [wokwi]
 version = 1
-elf = "build/release/build/stm32-hello-wokwi.elf"
-firmware = "build/release/build/stm32-hello-wokwi.hex"
+elf = "build/debug/build/stm32-hello-wokwi.elf"
+firmware = "build/debug/build/stm32-hello-wokwi.hex"
+gdbServerPort = 3333
